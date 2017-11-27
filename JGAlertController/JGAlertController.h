@@ -16,5 +16,10 @@ FOUNDATION_EXPORT const unsigned char JGAlertControllerVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <JGAlertController/PublicHeader.h>
 
+#if __has_include(<JGAlertController/JGAlertControllerImpl.h>)
+#import <JGAlertController/JGAlertControllerImpl.h>
+#import <JGAlertController/UIViewController+JGAlertController.h>
+#else
 #import "JGAlertControllerImpl.h"
 #import "UIViewController+JGAlertController.h"
+#endif
