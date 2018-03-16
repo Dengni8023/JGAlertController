@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:JGAlertControllerDemo/JGAlertControllerDemo.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:JGAlertController.xcodeproj">
    </FileRef>
    <FileRef

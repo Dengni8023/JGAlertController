@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDF8AC3D5FDF32C5B6ED2013 /* Pods_JGAlertControllerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C89510A1F98FD500EDFA9A3 /* Pods_JGAlertControllerDemo.framework */; };
+		D46724BD205BC4E1001CC143 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D46724BC205BC4E1001CC143 /* AppDelegate.m */; };
+		D46724C5205BC4E1001CC143 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D46724C4205BC4E1001CC143 /* Assets.xcassets */; };
+		D46724CB205BC4E1001CC143 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D46724CA205BC4E1001CC143 /* main.m */; };
+		D46724E0205BC619001CC143 /* JGDemoTableData.m in Sources */ = {isa = PBXBuildFile; fileRef = D46724DF205BC619001CC143 /* JGDemoTableData.m */; };
+		D46724E3205BC8A5001CC143 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D46724E2205BC8A5001CC143 /* ViewController.m */; };
+		D46724E6205BC97B001CC143 /* AlertTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D46724E5205BC97B001CC143 /* AlertTableViewController.m */; };
+		D46724E9205BC9A9001CC143 /* ActionSheetTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D46724E8205BC9A9001CC143 /* ActionSheetTableViewController.m */; };
+		D4D1D87E205FB6AB00AA4B61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4D1D87D205FB6AB00AA4B61 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C89510A1F98FD500EDFA9A3 /* Pods_JGAlertControllerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JGAlertControllerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5171EB757ABDD7387358681B /* Pods-JGAlertControllerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JGAlertControllerDemo.release.xcconfig"; path = "../Pods/Target Support Files/Pods-JGAlertControllerDemo/Pods-JGAlertControllerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A5AE03863BD631D9B7C36225 /* Pods-JGAlertControllerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JGAlertControllerDemo.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-JGAlertControllerDemo/Pods-JGAlertControllerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D46724B8205BC4E1001CC143 /* JGAlertControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JGAlertControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D46724BB205BC4E1001CC143 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D46724BC205BC4E1001CC143 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D46724C4205BC4E1001CC143 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D46724C9205BC4E1001CC143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D46724CA205BC4E1001CC143 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D46724DE205BC619001CC143 /* JGDemoTableData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGDemoTableData.h; sourceTree = "<group>"; };
+		D46724DF205BC619001CC143 /* JGDemoTableData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGDemoTableData.m; sourceTree = "<group>"; };
+		D46724E1205BC8A5001CC143 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = JGAlertControllerDemo/ViewController.h; sourceTree = SOURCE_ROOT; };
+		D46724E2205BC8A5001CC143 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = JGAlertControllerDemo/ViewController.m; sourceTree = SOURCE_ROOT; };
+		D46724E4205BC97B001CC143 /* AlertTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertTableViewController.h; sourceTree = "<group>"; };
+		D46724E5205BC97B001CC143 /* AlertTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertTableViewController.m; sourceTree = "<group>"; };
+		D46724E7205BC9A9001CC143 /* ActionSheetTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionSheetTableViewController.h; sourceTree = "<group>"; };
+		D46724E8205BC9A9001CC143 /* ActionSheetTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionSheetTableViewController.m; sourceTree = "<group>"; };
+		D4D1D87D205FB6AB00AA4B61 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D46724B5205BC4E1001CC143 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF8AC3D5FDF32C5B6ED2013 /* Pods_JGAlertControllerDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5C214D36FE437E41986ABB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5AE03863BD631D9B7C36225 /* Pods-JGAlertControllerDemo.debug.xcconfig */,
+				5171EB757ABDD7387358681B /* Pods-JGAlertControllerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AA18E31AC50E67C090A4DA09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C89510A1F98FD500EDFA9A3 /* Pods_JGAlertControllerDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D46724AF205BC4E1001CC143 = {
+			isa = PBXGroup;
+			children = (
+				D46724BA205BC4E1001CC143 /* JGAlertControllerDemo */,
+				D46724B9205BC4E1001CC143 /* Products */,
+				A5C214D36FE437E41986ABB1 /* Pods */,
+				AA18E31AC50E67C090A4DA09 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D46724B9205BC4E1001CC143 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D46724B8205BC4E1001CC143 /* JGAlertControllerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D46724BA205BC4E1001CC143 /* JGAlertControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D46724D5205BC546001CC143 /* Classes */,
+				D46724BB205BC4E1001CC143 /* AppDelegate.h */,
+				D46724BC205BC4E1001CC143 /* AppDelegate.m */,
+				D46724E1205BC8A5001CC143 /* ViewController.h */,
+				D46724E2205BC8A5001CC143 /* ViewController.m */,
+				D46724C4205BC4E1001CC143 /* Assets.xcassets */,
+				D46724C9205BC4E1001CC143 /* Info.plist */,
+				D4D1D87D205FB6AB00AA4B61 /* LaunchScreen.storyboard */,
+				D46724CA205BC4E1001CC143 /* main.m */,
+			);
+			path = JGAlertControllerDemo;
+			sourceTree = "<group>";
+		};
+		D46724D5205BC546001CC143 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D46724DD205BC619001CC143 /* Base */,
+				D46724E4205BC97B001CC143 /* AlertTableViewController.h */,
+				D46724E5205BC97B001CC143 /* AlertTableViewController.m */,
+				D46724E7205BC9A9001CC143 /* ActionSheetTableViewController.h */,
+				D46724E8205BC9A9001CC143 /* ActionSheetTableViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D46724DD205BC619001CC143 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D46724DE205BC619001CC143 /* JGDemoTableData.h */,
+				D46724DF205BC619001CC143 /* JGDemoTableData.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D46724B7205BC4E1001CC143 /* JGAlertControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D46724CE205BC4E1001CC143 /* Build configuration list for PBXNativeTarget "JGAlertControllerDemo" */;
+			buildPhases = (
+				9203EDEC337A55B58A771D10 /* [CP] Check Pods Manifest.lock */,
+				D46724B4205BC4E1001CC143 /* Sources */,
+				D46724B5205BC4E1001CC143 /* Frameworks */,
+				D46724B6205BC4E1001CC143 /* Resources */,
+				3D26AA8B745360D9D9F009B6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JGAlertControllerDemo;
+			productName = JGAlertControllerDemo;
+			productReference = D46724B8205BC4E1001CC143 /* JGAlertControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D46724B0205BC4E1001CC143 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = MeiJigao;
+				TargetAttributes = {
+					D46724B7205BC4E1001CC143 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D46724B3205BC4E1001CC143 /* Build configuration list for PBXProject "JGAlertControllerDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D46724AF205BC4E1001CC143;
+			productRefGroup = D46724B9205BC4E1001CC143 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D46724B7205BC4E1001CC143 /* JGAlertControllerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D46724B6205BC4E1001CC143 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D46724C5205BC4E1001CC143 /* Assets.xcassets in Resources */,
+				D4D1D87E205FB6AB00AA4B61 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D26AA8B745360D9D9F009B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../Pods/Target Support Files/Pods-JGAlertControllerDemo/Pods-JGAlertControllerDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JGAlertController/JGAlertController.framework",
+				"${BUILT_PRODUCTS_DIR}/JGSourceBase/JGSourceBase.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGAlertController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGSourceBase.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-JGAlertControllerDemo/Pods-JGAlertControllerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9203EDEC337A55B58A771D10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JGAlertControllerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D46724B4205BC4E1001CC143 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D46724E0205BC619001CC143 /* JGDemoTableData.m in Sources */,
+				D46724E9205BC9A9001CC143 /* ActionSheetTableViewController.m in Sources */,
+				D46724E6205BC97B001CC143 /* AlertTableViewController.m in Sources */,
+				D46724CB205BC4E1001CC143 /* main.m in Sources */,
+				D46724BD205BC4E1001CC143 /* AppDelegate.m in Sources */,
+				D46724E3205BC8A5001CC143 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D46724CC205BC4E1001CC143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D46724CD205BC4E1001CC143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D46724CF205BC4E1001CC143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5AE03863BD631D9B7C36225 /* Pods-JGAlertControllerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27ZN797VLM;
+				INFOPLIST_FILE = JGAlertControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MeiJigao.JGAlertControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D46724D0205BC4E1001CC143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5171EB757ABDD7387358681B /* Pods-JGAlertControllerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27ZN797VLM;
+				INFOPLIST_FILE = JGAlertControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MeiJigao.JGAlertControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D46724B3205BC4E1001CC143 /* Build configuration list for PBXProject "JGAlertControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D46724CC205BC4E1001CC143 /* Debug */,
+				D46724CD205BC4E1001CC143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D46724CE205BC4E1001CC143 /* Build configuration list for PBXNativeTarget "JGAlertControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D46724CF205BC4E1001CC143 /* Debug */,
+				D46724D0205BC4E1001CC143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D46724B0205BC4E1001CC143 /* Project object */;
+}

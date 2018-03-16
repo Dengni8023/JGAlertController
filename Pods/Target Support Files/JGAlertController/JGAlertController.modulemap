@@ -1,0 +1,6 @@
+framework module JGAlertController {
+  umbrella header "JGAlertController-umbrella.h"
+
+  export *
+  module * { export * }
+}
