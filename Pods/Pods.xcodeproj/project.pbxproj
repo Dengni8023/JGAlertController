@@ -7,27 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		067727C4E61402C6884238D5FD27E67B /* NSDictionary+JGSCEasyUse.m in Sources */ = {isa = PBXBuildFile; fileRef = AD86F58E6A86A0E8A0570743FA47A2FB /* NSDictionary+JGSCEasyUse.m */; };
 		097550715BB04C6A0C1DCA918F38F269 /* UIViewController+JGACAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B4988793AB09F782AAC17F9F087916 /* UIViewController+JGACAlertController.m */; };
-		1E0DCB4DCB3AB91E892CF81F8EC8A221 /* JGSCWeakStrongProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = CC165A75A174EB4BA28CFC6949FC6D31 /* JGSCWeakStrongProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		21A15D7B2A59D2E63D76C214799BF05F /* JGSourceBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 64019A7091CA09F2276BB527B7093CF0 /* JGSourceBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		254480484F65D954B98AF3046602DE65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9968CF35F7281F18B46B7AD408B7EB7F /* Foundation.framework */; };
+		4159E656D3EC42F4DA76C7EE3CDE3ED7 /* JGSCWeakStrongProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = FDAC8B176BA65029E918F841E9834A22 /* JGSCWeakStrongProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		476FB77204653EF88C76AD6DAFB032DD /* UIViewController+JGACAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F96B279D8B7756548EBBE8205F1E4AC /* UIViewController+JGACAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		489ACFCFF65A1F6A9A58F42ECBF09B3B /* JGSCLog.h in Headers */ = {isa = PBXBuildFile; fileRef = FCAC4572431B5787750F70C1071F3E1F /* JGSCLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B290D14AF5F3855E1B5C3CCEE0138B6 /* JGSourceBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D537807A89D049709B740234170E2C4B /* JGSourceBase-dummy.m */; };
-		6E61782F30D8184EE6C96138FB3AAD7E /* JGSCRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C59254FA144E5ED433055DBEEDEA0F9 /* JGSCRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		71BE8AD66BF2EEEDC367DBEB4EC5ACD5 /* JGSCCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BFD753C624D957C91AEDEE365EB48A7 /* JGSCCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7A92E3E5D2CC30BCA4D3FC39F3CE1F44 /* JGSourceBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5160D7E00DC90A6FF2A4D1A5C59E5418 /* JGSourceBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C5552DD14617DB431BA0C462728E31F /* JGSCCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB57F214DC753DBBC0CC257825DEE7A /* JGSCCommon.m */; };
+		60DF8312B285BAF3BAED6ED51F2179C6 /* NSString+JGSCURL.h in Headers */ = {isa = PBXBuildFile; fileRef = CBFBC4261C37E8E9D2594CAF671ABEB3 /* NSString+JGSCURL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		740B9592535046DF46F4E71E84E48D79 /* JGSCLogDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E20D3CD58AF67074C9F029B65769EDA /* JGSCLogDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77E90488FBDEEEE6074DE2F7C28CCF45 /* JGSCCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DC9A02A6620B9B20B5FC19A929F2B28 /* JGSCCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B56C9AC306A6ADA3312622BF910F37B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9968CF35F7281F18B46B7AD408B7EB7F /* Foundation.framework */; };
-		7DB38526C3A4700A718F2C0E6FC7CB96 /* JGSCRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 6084BC21B2DEED4A5AC0AD550EC8E7F0 /* JGSCRuntime.m */; };
 		80CC5C78D0BB0CE9ED9BF8543787E882 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9968CF35F7281F18B46B7AD408B7EB7F /* Foundation.framework */; };
+		82F3A5CF2A591AB830BF7FFAB32DA1D9 /* JGSourceBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9BA6045FDED6A57669AFC123414315C /* JGSourceBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88911DB9D9F58DC6CC1231E1E8324DF6 /* JGSourceBase.h in Headers */ = {isa = PBXBuildFile; fileRef = EBCC06DB720E2BD094B6436AF1CF2BCF /* JGSourceBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		961EEE99887C8F22186C60918B0DC953 /* JGSourceBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A32CF0BF3AB34FA1E327059490DECC9 /* JGSourceBase.framework */; };
+		9E4EDB69501AC7E74E9293C1E69C2EE3 /* JGSourceBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1491F02DC38BAB763485F028F95A580 /* JGSourceBase-dummy.m */; };
 		A58653DB52EF07CAAAB188E87F48BF4C /* UIAlertController+JGACAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7984E7A6219AFDB4617AA0589349DE3 /* UIAlertController+JGACAlertController.m */; };
 		B1F3D7A9989597C8085937865DA30BE0 /* JGAlertController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE6F132E76714D5A7EA7EA43ECE990 /* JGAlertController-dummy.m */; };
-		B93963DE46C483008E51B92E6169A6A4 /* JGSCLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6D1FFCFEC67B7A76D4FC7BA0A3C91E /* JGSCLog.m */; };
+		B5573019360C6450A9779FCC66C881B6 /* NSString+JGSCURL.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF3A0FA817AFB3DF8C6F17E417C00C4 /* NSString+JGSCURL.m */; };
+		B5B463B9343F2AFEAED20C511DBC0454 /* NSURL+JGSCURLQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C2C901CBFC9E03A9B75361A36909C7B /* NSURL+JGSCURLQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C987586AF3A327549D66ACA43EBE9534 /* Pods-JGAlertControllerDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FBDF7EE66878E03489546B2AC7EB296 /* Pods-JGAlertControllerDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CBDEEAB1988C238097D1610E36DBE28A /* JGACAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A22E87064274CB813E1D3E91630214F /* JGACAlertController.m */; };
+		D622F9740C01C09E4E415C604A4C07AE /* NSDictionary+JGSCEasyUse.h in Headers */ = {isa = PBXBuildFile; fileRef = FCEB183037FCCD2435D5293EF1F945D1 /* NSDictionary+JGSCEasyUse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DC0B5AD698CB36EC8133F4AFFA5E2149 /* JGAlertController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C93D0F859D9D4988F2307A1659FBAC61 /* JGAlertController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DEB8406BD6878D25C6C7D70C457C2455 /* JGAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DE02B09A0F4C0B8526EC52417F5944B /* JGAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFEDC1884C3EE574F3BDF7BD7F2E36D1 /* NSURL+JGSCURLQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F299E4A0799129AAC4F7C235812384 /* NSURL+JGSCURLQuery.m */; };
 		E1E7397D8CB2FC300B904B1E2D2A442D /* JGACAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = FF7F776B8168221B3E9A5D03DB608B52 /* JGACAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F1CD570DA36472F224CBDBBF37B47986 /* Pods-JGAlertControllerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B53D1946594F323CA4D65BE66DA2F2F /* Pods-JGAlertControllerDemo-dummy.m */; };
 		FF31024E45E4F272581B755D5DC16470 /* UIAlertController+JGACAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = D527A1C391AD1A1BC1FECCC1BAC90032 /* UIAlertController+JGACAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -58,7 +62,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00678434CFBF6D12719A182D8CD90265 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DC9A02A6620B9B20B5FC19A929F2B28 /* JGSCCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGSCCommon.h; path = JGSourceBase/Common/JGSCCommon.h; sourceTree = "<group>"; };
 		0FB5BBBBF6FD9734CB517CB0119F5C30 /* Pods-JGAlertControllerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JGAlertControllerDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		19338AACE4B4A5FD29F5302D112BD5C7 /* JGSourceBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JGSourceBase.framework; path = JGSourceBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A32CF0BF3AB34FA1E327059490DECC9 /* JGSourceBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JGSourceBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,42 +70,46 @@
 		24EFAF751E2A8BBD16770D2437D3B4D4 /* JGAlertController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JGAlertController-prefix.pch"; sourceTree = "<group>"; };
 		2B53D1946594F323CA4D65BE66DA2F2F /* Pods-JGAlertControllerDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JGAlertControllerDemo-dummy.m"; sourceTree = "<group>"; };
 		2C15D268CF9B1276A0DF6568937C83CF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2C2C901CBFC9E03A9B75361A36909C7B /* NSURL+JGSCURLQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+JGSCURLQuery.h"; path = "JGSourceBase/Common/NSURL+JGSCURLQuery.h"; sourceTree = "<group>"; };
 		2F96B279D8B7756548EBBE8205F1E4AC /* UIViewController+JGACAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+JGACAlertController.h"; path = "JGAlertController/UIViewController+JGACAlertController.h"; sourceTree = "<group>"; };
 		3A22E87064274CB813E1D3E91630214F /* JGACAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGACAlertController.m; path = JGAlertController/JGACAlertController.m; sourceTree = "<group>"; };
 		414D0A0F987E973A6975662DA0F711BB /* JGAlertController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JGAlertController.xcconfig; sourceTree = "<group>"; };
 		448FCE6C4A7575F1C76B39D6141E0627 /* Pods_JGAlertControllerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JGAlertControllerDemo.framework; path = "Pods-JGAlertControllerDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45F299E4A0799129AAC4F7C235812384 /* NSURL+JGSCURLQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+JGSCURLQuery.m"; path = "JGSourceBase/Common/NSURL+JGSCURLQuery.m"; sourceTree = "<group>"; };
 		4EA40902981116EE3C68777E28FD558C /* JGAlertController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JGAlertController.modulemap; sourceTree = "<group>"; };
-		5160D7E00DC90A6FF2A4D1A5C59E5418 /* JGSourceBase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JGSourceBase-umbrella.h"; sourceTree = "<group>"; };
 		532ADDDCDD707344577A8B1FDA74CB12 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C876BA9B403CD3C1AA5139425E697B5 /* JGAlertController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = JGAlertController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		6084BC21B2DEED4A5AC0AD550EC8E7F0 /* JGSCRuntime.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGSCRuntime.m; path = JGSourceBase/JGSCRuntime.m; sourceTree = "<group>"; };
-		64019A7091CA09F2276BB527B7093CF0 /* JGSourceBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGSourceBase.h; path = JGSourceBase/JGSourceBase.h; sourceTree = "<group>"; };
-		6BFD753C624D957C91AEDEE365EB48A7 /* JGSCCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGSCCommon.h; path = JGSourceBase/JGSCCommon.h; sourceTree = "<group>"; };
 		6DE02B09A0F4C0B8526EC52417F5944B /* JGAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGAlertController.h; path = JGAlertController/JGAlertController.h; sourceTree = "<group>"; };
-		7C8D5A0181B1627F70E92A653051D7ED /* JGSourceBase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JGSourceBase.modulemap; sourceTree = "<group>"; };
-		7F6D1FFCFEC67B7A76D4FC7BA0A3C91E /* JGSCLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGSCLog.m; path = JGSourceBase/JGSCLog.m; sourceTree = "<group>"; };
+		6E20D3CD58AF67074C9F029B65769EDA /* JGSCLogDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGSCLogDefine.h; path = JGSourceBase/Common/JGSCLogDefine.h; sourceTree = "<group>"; };
+		7D2D98FBAD4058760E96876947EA9A49 /* JGSourceBase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JGSourceBase.modulemap; sourceTree = "<group>"; };
 		7FB136C337004B5BDF80C66A8AEF5808 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7FBDF7EE66878E03489546B2AC7EB296 /* Pods-JGAlertControllerDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JGAlertControllerDemo-umbrella.h"; sourceTree = "<group>"; };
-		8D313DB3DAE1D2E731EDF2676D8C357A /* JGSourceBase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JGSourceBase-prefix.pch"; sourceTree = "<group>"; };
+		88D9525F8517452860AAB18DB0D6B780 /* JGSourceBase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JGSourceBase.xcconfig; sourceTree = "<group>"; };
 		91705EFC62765029A6DC60E828C5DA49 /* Pods-JGAlertControllerDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JGAlertControllerDemo.modulemap"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94B3C7DE35B2549BCDFC60043CD16418 /* Pods-JGAlertControllerDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JGAlertControllerDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		98F2460D33478D81E9ACA8143479C099 /* JGAlertController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JGAlertController.framework; path = JGAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9968CF35F7281F18B46B7AD408B7EB7F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		9B2A56F58B5D12BCB0CB9FF94A6B5813 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		9C59254FA144E5ED433055DBEEDEA0F9 /* JGSCRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGSCRuntime.h; path = JGSourceBase/JGSCRuntime.h; sourceTree = "<group>"; };
 		A5B4988793AB09F782AAC17F9F087916 /* UIViewController+JGACAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+JGACAlertController.m"; path = "JGAlertController/UIViewController+JGACAlertController.m"; sourceTree = "<group>"; };
-		B7309CFBE101BD3C315868478F1A01D4 /* JGSourceBase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JGSourceBase.xcconfig; sourceTree = "<group>"; };
+		AD86F58E6A86A0E8A0570743FA47A2FB /* NSDictionary+JGSCEasyUse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+JGSCEasyUse.m"; path = "JGSourceBase/Common/NSDictionary+JGSCEasyUse.m"; sourceTree = "<group>"; };
+		B8D266A572A3E39F7E11CE089AA01A68 /* JGSourceBase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JGSourceBase-prefix.pch"; sourceTree = "<group>"; };
 		C7984E7A6219AFDB4617AA0589349DE3 /* UIAlertController+JGACAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertController+JGACAlertController.m"; path = "JGAlertController/UIAlertController+JGACAlertController.m"; sourceTree = "<group>"; };
 		C93D0F859D9D4988F2307A1659FBAC61 /* JGAlertController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JGAlertController-umbrella.h"; sourceTree = "<group>"; };
+		C9BA6045FDED6A57669AFC123414315C /* JGSourceBase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JGSourceBase-umbrella.h"; sourceTree = "<group>"; };
 		C9DE6F132E76714D5A7EA7EA43ECE990 /* JGAlertController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JGAlertController-dummy.m"; sourceTree = "<group>"; };
-		CC165A75A174EB4BA28CFC6949FC6D31 /* JGSCWeakStrongProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGSCWeakStrongProperty.h; path = JGSourceBase/JGSCWeakStrongProperty.h; sourceTree = "<group>"; };
+		CBFBC4261C37E8E9D2594CAF671ABEB3 /* NSString+JGSCURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+JGSCURL.h"; path = "JGSourceBase/Common/NSString+JGSCURL.h"; sourceTree = "<group>"; };
 		D527A1C391AD1A1BC1FECCC1BAC90032 /* UIAlertController+JGACAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertController+JGACAlertController.h"; path = "JGAlertController/UIAlertController+JGACAlertController.h"; sourceTree = "<group>"; };
-		D537807A89D049709B740234170E2C4B /* JGSourceBase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JGSourceBase-dummy.m"; sourceTree = "<group>"; };
+		D6C4561AA07B70C927266A71C2F9F151 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E49B55957E8D1FCED68B932E59414FC6 /* Pods-JGAlertControllerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JGAlertControllerDemo.release.xcconfig"; sourceTree = "<group>"; };
 		E8EE1DDAEEE27EEA16F906821568D870 /* Pods-JGAlertControllerDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JGAlertControllerDemo-resources.sh"; sourceTree = "<group>"; };
+		EBCC06DB720E2BD094B6436AF1CF2BCF /* JGSourceBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGSourceBase.h; path = JGSourceBase/JGSourceBase.h; sourceTree = "<group>"; };
 		ED4416F2E0A72963099CF2726AC2AE9C /* Pods-JGAlertControllerDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JGAlertControllerDemo-frameworks.sh"; sourceTree = "<group>"; };
-		FCAC4572431B5787750F70C1071F3E1F /* JGSCLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGSCLog.h; path = JGSourceBase/JGSCLog.h; sourceTree = "<group>"; };
+		EEB57F214DC753DBBC0CC257825DEE7A /* JGSCCommon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGSCCommon.m; path = JGSourceBase/Common/JGSCCommon.m; sourceTree = "<group>"; };
+		F1491F02DC38BAB763485F028F95A580 /* JGSourceBase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JGSourceBase-dummy.m"; sourceTree = "<group>"; };
+		FAF3A0FA817AFB3DF8C6F17E417C00C4 /* NSString+JGSCURL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+JGSCURL.m"; path = "JGSourceBase/Common/NSString+JGSCURL.m"; sourceTree = "<group>"; };
+		FCEB183037FCCD2435D5293EF1F945D1 /* NSDictionary+JGSCEasyUse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+JGSCEasyUse.h"; path = "JGSourceBase/Common/NSDictionary+JGSCEasyUse.h"; sourceTree = "<group>"; };
+		FDAC8B176BA65029E918F841E9834A22 /* JGSCWeakStrongProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGSCWeakStrongProperty.h; path = JGSourceBase/Common/JGSCWeakStrongProperty.h; sourceTree = "<group>"; };
 		FF7F776B8168221B3E9A5D03DB608B52 /* JGACAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGACAlertController.h; path = JGAlertController/JGACAlertController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -142,36 +150,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		2471B1974103C281B8464A94DA6E189D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				00678434CFBF6D12719A182D8CD90265 /* Info.plist */,
-				7C8D5A0181B1627F70E92A653051D7ED /* JGSourceBase.modulemap */,
-				B7309CFBE101BD3C315868478F1A01D4 /* JGSourceBase.xcconfig */,
-				D537807A89D049709B740234170E2C4B /* JGSourceBase-dummy.m */,
-				8D313DB3DAE1D2E731EDF2676D8C357A /* JGSourceBase-prefix.pch */,
-				5160D7E00DC90A6FF2A4D1A5C59E5418 /* JGSourceBase-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/JGSourceBase";
-			sourceTree = "<group>";
-		};
-		376CF68E7C4F226088791C968477F2DE /* JGSourceBase */ = {
-			isa = PBXGroup;
-			children = (
-				6BFD753C624D957C91AEDEE365EB48A7 /* JGSCCommon.h */,
-				FCAC4572431B5787750F70C1071F3E1F /* JGSCLog.h */,
-				7F6D1FFCFEC67B7A76D4FC7BA0A3C91E /* JGSCLog.m */,
-				9C59254FA144E5ED433055DBEEDEA0F9 /* JGSCRuntime.h */,
-				6084BC21B2DEED4A5AC0AD550EC8E7F0 /* JGSCRuntime.m */,
-				CC165A75A174EB4BA28CFC6949FC6D31 /* JGSCWeakStrongProperty.h */,
-				64019A7091CA09F2276BB527B7093CF0 /* JGSourceBase.h */,
-				2471B1974103C281B8464A94DA6E189D /* Support Files */,
-			);
-			name = JGSourceBase;
-			path = JGSourceBase;
-			sourceTree = "<group>";
-		};
 		61837EFFC7E995FD790530A13497EDDC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -195,6 +173,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7047F95DCFCC5BEC4AF523952105B4F3 /* JGSourceBase */ = {
+			isa = PBXGroup;
+			children = (
+				EBCC06DB720E2BD094B6436AF1CF2BCF /* JGSourceBase.h */,
+				EDF4649949616ADE07237C098F5482EC /* Common */,
+				A94F84C987A10796DF65346C3273F74B /* Support Files */,
+			);
+			name = JGSourceBase;
+			path = JGSourceBase;
+			sourceTree = "<group>";
+		};
 		7452AB33B07E6CDF68F70870EB27403A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,7 +198,7 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				7452AB33B07E6CDF68F70870EB27403A /* Development Pods */,
 				691F274530B1D83FB8592421AEAF59EE /* Frameworks */,
-				F3CA0973BA75547359A7EDDA32ABB5A5 /* Pods */,
+				F6313D5EA284EE4B8E5F3EDC905E8A76 /* Pods */,
 				9ADA951BBB7144F30E985CD4E412A835 /* Products */,
 				15BF28D1F6DF6124BC5D8C2EE4151DCC /* Targets Support Files */,
 			);
@@ -251,6 +240,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		A94F84C987A10796DF65346C3273F74B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6C4561AA07B70C927266A71C2F9F151 /* Info.plist */,
+				7D2D98FBAD4058760E96876947EA9A49 /* JGSourceBase.modulemap */,
+				88D9525F8517452860AAB18DB0D6B780 /* JGSourceBase.xcconfig */,
+				F1491F02DC38BAB763485F028F95A580 /* JGSourceBase-dummy.m */,
+				B8D266A572A3E39F7E11CE089AA01A68 /* JGSourceBase-prefix.pch */,
+				C9BA6045FDED6A57669AFC123414315C /* JGSourceBase-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JGSourceBase";
+			sourceTree = "<group>";
+		};
 		B33318136957EABD9DEB1EC27AA44F6E /* JGAlertController */ = {
 			isa = PBXGroup;
 			children = (
@@ -278,10 +281,27 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		F3CA0973BA75547359A7EDDA32ABB5A5 /* Pods */ = {
+		EDF4649949616ADE07237C098F5482EC /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				376CF68E7C4F226088791C968477F2DE /* JGSourceBase */,
+				0DC9A02A6620B9B20B5FC19A929F2B28 /* JGSCCommon.h */,
+				EEB57F214DC753DBBC0CC257825DEE7A /* JGSCCommon.m */,
+				6E20D3CD58AF67074C9F029B65769EDA /* JGSCLogDefine.h */,
+				FDAC8B176BA65029E918F841E9834A22 /* JGSCWeakStrongProperty.h */,
+				FCEB183037FCCD2435D5293EF1F945D1 /* NSDictionary+JGSCEasyUse.h */,
+				AD86F58E6A86A0E8A0570743FA47A2FB /* NSDictionary+JGSCEasyUse.m */,
+				CBFBC4261C37E8E9D2594CAF671ABEB3 /* NSString+JGSCURL.h */,
+				FAF3A0FA817AFB3DF8C6F17E417C00C4 /* NSString+JGSCURL.m */,
+				2C2C901CBFC9E03A9B75361A36909C7B /* NSURL+JGSCURLQuery.h */,
+				45F299E4A0799129AAC4F7C235812384 /* NSURL+JGSCURLQuery.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		F6313D5EA284EE4B8E5F3EDC905E8A76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7047F95DCFCC5BEC4AF523952105B4F3 /* JGSourceBase */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -289,6 +309,21 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		52159B5726B5251A536662AB14730666 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E90488FBDEEEE6074DE2F7C28CCF45 /* JGSCCommon.h in Headers */,
+				740B9592535046DF46F4E71E84E48D79 /* JGSCLogDefine.h in Headers */,
+				4159E656D3EC42F4DA76C7EE3CDE3ED7 /* JGSCWeakStrongProperty.h in Headers */,
+				82F3A5CF2A591AB830BF7FFAB32DA1D9 /* JGSourceBase-umbrella.h in Headers */,
+				88911DB9D9F58DC6CC1231E1E8324DF6 /* JGSourceBase.h in Headers */,
+				D622F9740C01C09E4E415C604A4C07AE /* NSDictionary+JGSCEasyUse.h in Headers */,
+				60DF8312B285BAF3BAED6ED51F2179C6 /* NSString+JGSCURL.h in Headers */,
+				B5B463B9343F2AFEAED20C511DBC0454 /* NSURL+JGSCURLQuery.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7D9A90FEB9A4031817C3AFEDEF8AA087 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -306,19 +341,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C987586AF3A327549D66ACA43EBE9534 /* Pods-JGAlertControllerDemo-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B8473D7F1B9E9783C5B3A1CAFABF58C5 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				71BE8AD66BF2EEEDC367DBEB4EC5ACD5 /* JGSCCommon.h in Headers */,
-				489ACFCFF65A1F6A9A58F42ECBF09B3B /* JGSCLog.h in Headers */,
-				6E61782F30D8184EE6C96138FB3AAD7E /* JGSCRuntime.h in Headers */,
-				1E0DCB4DCB3AB91E892CF81F8EC8A221 /* JGSCWeakStrongProperty.h in Headers */,
-				7A92E3E5D2CC30BCA4D3FC39F3CE1F44 /* JGSourceBase-umbrella.h in Headers */,
-				21A15D7B2A59D2E63D76C214799BF05F /* JGSourceBase.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,9 +370,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC088466F62EA0DA0C60B72E874CC748 /* Build configuration list for PBXNativeTarget "JGSourceBase" */;
 			buildPhases = (
-				2828D5899FE9E045D1991259EB3F7F3F /* Sources */,
+				3B50385DC6CAC3F1A48954134C4BE3C1 /* Sources */,
 				72BB4752D6EE51551946A1025AC30153 /* Frameworks */,
-				B8473D7F1B9E9783C5B3A1CAFABF58C5 /* Headers */,
+				52159B5726B5251A536662AB14730666 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -419,13 +441,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2828D5899FE9E045D1991259EB3F7F3F /* Sources */ = {
+		3B50385DC6CAC3F1A48954134C4BE3C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B93963DE46C483008E51B92E6169A6A4 /* JGSCLog.m in Sources */,
-				7DB38526C3A4700A718F2C0E6FC7CB96 /* JGSCRuntime.m in Sources */,
-				5B290D14AF5F3855E1B5C3CCEE0138B6 /* JGSourceBase-dummy.m in Sources */,
+				5C5552DD14617DB431BA0C462728E31F /* JGSCCommon.m in Sources */,
+				9E4EDB69501AC7E74E9293C1E69C2EE3 /* JGSourceBase-dummy.m in Sources */,
+				067727C4E61402C6884238D5FD27E67B /* NSDictionary+JGSCEasyUse.m in Sources */,
+				B5573019360C6450A9779FCC66C881B6 /* NSString+JGSCURL.m in Sources */,
+				DFEDC1884C3EE574F3BDF7BD7F2E36D1 /* NSURL+JGSCURLQuery.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -560,7 +584,7 @@
 		};
 		36D639F03C08834A9E37C091D87BD5BB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7309CFBE101BD3C315868478F1A01D4 /* JGSourceBase.xcconfig */;
+			baseConfigurationReference = 88D9525F8517452860AAB18DB0D6B780 /* JGSourceBase.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -623,7 +647,7 @@
 		};
 		53AF85C9673447CFDBF0895BFCAC9687 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7309CFBE101BD3C315868478F1A01D4 /* JGSourceBase.xcconfig */;
+			baseConfigurationReference = 88D9525F8517452860AAB18DB0D6B780 /* JGSourceBase.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

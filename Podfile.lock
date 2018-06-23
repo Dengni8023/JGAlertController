@@ -1,7 +1,9 @@
 PODS:
-  - JGAlertController (0.0.3):
-    - JGSourceBase (= 0.0.5)
-  - JGSourceBase (0.0.5)
+  - JGAlertController (0.0.4):
+    - JGSourceBase (~> 0.1.0)
+  - JGSourceBase (0.1.0):
+    - JGSourceBase/Common (= 0.1.0)
+  - JGSourceBase/Common (0.1.0)
 
 DEPENDENCIES:
   - JGAlertController (from `.`)
@@ -15,8 +17,8 @@ EXTERNAL SOURCES:
     :path: "."
 
 SPEC CHECKSUMS:
-  JGAlertController: 98c30003fe95c7cf0eb95111850dd46dd97a2396
-  JGSourceBase: 9a7b3c3e40380d2f9e79bd995db6f3654083b2e9
+  JGAlertController: e57796f7f175aea99030a088e232b195d420558b
+  JGSourceBase: 03fca616c3686a7197fcac672201d7f083fd7d8b
 
 PODFILE CHECKSUM: 3b16c441f021ea2c05a5b2cf2d19d2fd8e00e1e0
 
